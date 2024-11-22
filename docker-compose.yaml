@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  quartos-service:
+    build:
+      context: ./Servicos/QuartosService
+    ports:
+      - "5001:80"
+  
+  hospedes-service:
+    build:
+      context: ./Servicos/HospedesService
+    ports:
+      - "5002:80"
+
+  reservas-service:
+    build:
+      context: ./Servicos/ReservasService
+    ports:
+      - "5003:80"
