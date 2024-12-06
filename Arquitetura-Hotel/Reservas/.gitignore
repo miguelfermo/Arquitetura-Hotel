@@ -1,0 +1,45 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Arquivos de compilação
+*.o
+*.out
+*.exe
+
+# Arquivos temporários
+*~
+
+# Arquivos de log e cache
+*.log
+*.cache
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Dependências e diretórios de construção
+node_modules/
+build/
+dist/
+
+# Arquivos de credenciais
+.env
+
+# Arquivos de mídia
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp3
+*.mp4
+
+# Arquivos de dados
+*.csv
+*.xml
+
+
+# Arquivos de compilação
+obj/
+bin/
+migrations/
+*.db
+.vs/

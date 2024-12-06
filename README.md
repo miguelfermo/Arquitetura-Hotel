@@ -4,15 +4,15 @@ Arquitetura de Software - Sistema de Reserva de Quartos de Hotel
 
 # Documento de Requisitos - Sistema de Reserva de Quartos de Hotel
 
-## a. Propósito do Sistema
+## A. Propósito do Sistema
 O sistema de Reserva de Quartos de Hotel tem como objetivo gerenciar as reservas, disponibilidades e informações dos quartos, além de manter o cadastro de hóspedes. O sistema permite que os administradores do hotel verifiquem a disponibilidade de quartos, realizem reservas, registrem hóspedes e atualizem dados de forma eficiente e integrada, otimizando a operação e a organização das estadias.
 
-## b. Usuários
+## B. Usuários
 - **Administradores do Hotel**: Funcionários que gerenciam reservas, quartos e o cadastro de hóspedes.
 - **Recepcionistas**: Funcionários que fazem consultas de disponibilidade e registram reservas e cancelamentos.
 - **Gerentes**: Usuários com permissão para consultar relatórios de ocupação, histórico de hóspedes e status financeiro dos quartos e reservas.
 
-## c. Requisitos Funcionais
+## C. Requisitos Funcionais
 
 ### Gestão de Quartos
 - O sistema deve permitir o cadastro, consulta e atualização das informações dos quartos, incluindo tipo, preço e status de disponibilidade.
